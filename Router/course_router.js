@@ -1,11 +1,14 @@
+const courseController = require("../controllers/course_controller")
+
 const courseRouter = (method,res) =>{
 
     switch(method){
         case "GET" :
-            return
+            courseController(res);
+            return;
         default:
-            res,writeHead(405,{"content-type" : "application/json"});
-            res.end({msg:"Method Not Allowed"})
+            res.writeHead(405,{"content-type" : "application/json"});
+            res.end(JSON.stringify({msg:"Method Not Allowed"}))
     }
 
 }

@@ -5,6 +5,7 @@ const trainerRouter = require("./tariner_router");
 const rootRouter = (req,res) =>{
     const {method,url} = req;
 
+
     switch(url){
         case "/student":
         studentRouter(method,res)
@@ -16,8 +17,9 @@ const rootRouter = (req,res) =>{
         trainerRouter(method,res)
             return;
         default:
-            res.writeHead(404,{"content-type" : "application/json"});
-            res.end({msg : "page Not Found"});
+            console.log("entering");
+            res.writeHead(400,{"content-type" : "application/json"});
+            res.end(JSON.stringify({"msg" : "page Not Found"}));
     }
 }
 
