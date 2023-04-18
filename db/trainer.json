@@ -1,0 +1,54 @@
+[
+    {
+        "name":"Mr.Kishore Reddy",
+        "role":"Trainer",
+        "course":"MERN",
+        "experience":"4-5 years",
+        "photo" :""
+
+    },
+    {
+        "name":"Mr.Tejas",
+        "role":"Trainer",
+        "course":"MERN",
+        "experience":"1-2 years",
+        "photo" :""
+
+    },
+    {
+        "name":"Mr.Basappa",
+        "role":"Trainer",
+        "course":"MERN",
+        "experience":"1-2 years",
+        "photo" :""
+
+    },
+    {
+        "name":"Mr.Santosh",
+        "role":"Trainer",
+        "course":"PYTHON",
+        "experience":"2-3 years",
+        "photo" :""
+
+    },
+    {
+        "name":"Mr.Raveesh",
+        "role":"Trainer",
+        "course":"JAVA",
+        "experience":"7-8 years",
+        "photo" :""
+    },
+    {
+        "name":"Mr.Joyson",
+        "role":"Trainer",
+        "course":"JAVA",
+        "experience":"3-4 years",
+        "photo" :""
+    },{
+        "name":"Mr.Raveesh",
+        "role":"Trainer",
+        "course":"JAVA",
+        "experience":"7-8 years",
+        "photo" :""
+    }
+]

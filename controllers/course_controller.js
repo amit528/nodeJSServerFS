@@ -7,7 +7,12 @@ const courseController = (res) =>{
         if(err) {
             serverSideErrorHandler(res,500,`<h1>Some thing went wrong</h1>`, "text/html")
         }else{
-            res.writeHead(200,{ "content-type" : "application/json"})
+            res.writeHead(200,
+                { 
+                    "content-type": "application/json",
+                    "Access-Control-Allow-Origin" : "*",
+                }
+        )
             res.end(data);
         }
     })

@@ -4,11 +4,10 @@ const trainerRouter = require("./tariner_router");
 
 const rootRouter = (req,res) =>{
     const {method,url} = req;
-
-
+    
     switch(url){
         case "/student":
-        studentRouter(method,res)
+        studentRouter(method,res,req)
             return;
         case "/course":
             courseRouter(method,res)

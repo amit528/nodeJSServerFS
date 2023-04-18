@@ -2,7 +2,30 @@
     {
     "name":"MERN",
     "description":"",
-    "recentBatches":[2020,2021,2022],
+    "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dPQUXPrbDoOk1TClGqC-QZ3JrPl1b6N74lZ7Ea96&s",
+    "recentBatches":[
+        {
+            "batchCode" : "76M1",
+            "trainer" : {
+                "id" : "jsp001",
+                "name":"MR.Tejas Kumar"
+            }
+        },
+        {
+            "batchCode" : "76M13",
+            "trainer" : {
+                "id" : "jsp002",
+                "name":"MR.Basappa"
+            }
+        },
+        {
+            "batchCode" : "76JS1",
+            "trainer" : {
+                "id" : "jsp003",
+                "name":"MR.Kishore Reddy"
+            }
+        }
+    ],
     "trainers":[
         {
             "name":"MR.Kishore Reddy",
@@ -26,6 +49,7 @@
     {
     "name":"JAVA",
     "description":"",
+    "url":"https://technogeekscs.com/wp-content/uploads/2022/08/Java-training-institute-.jpg",
     "recentBatches":[2020,2021,2022],
     "trainers":[
         {
@@ -40,6 +64,7 @@
     {
     "name":"PYTHON",
     "description":"",
+    "url":"https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/RNKty7jdRWyEZ4EvzNa1",
     "recentBatches":[2020,2021,2022],
     "trainers":[
         {

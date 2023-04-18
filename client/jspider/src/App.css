@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+a{
+  text-decoration: none !important;
+  color: white !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +41,18 @@
     transform: rotate(360deg);
   }
 }
+
+.bsToggle{
+  border: 2px solid white !important;
+}
+
+.bsBrand span{
+  color: rgb(255, 145, 0);
+  
+}
+
+.offcanvas{
+  width:auto !important;
+  scroll-behavior: smooth !important;
+}  
+

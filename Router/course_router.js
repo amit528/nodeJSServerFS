@@ -1,7 +1,6 @@
 const courseController = require("../controllers/course_controller")
 
 const courseRouter = (method,res) =>{
-
     switch(method){
         case "GET" :
             courseController(res);

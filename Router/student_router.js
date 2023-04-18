@@ -1,7 +1,10 @@
-const studentRouter = (method,res) =>{
+const studentController = require("../controllers/student_controller");
+
+const studentRouter = (method,res,req) =>{
 
     switch(method){
         case "POST":
+            studentController(res,req)
             return;
         case "GET" :
             return
